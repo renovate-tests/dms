@@ -1,4 +1,4 @@
-FROM node:8.9.100 AS base
+FROM allthings/node AS base
 RUN something
 FROM base AS foo
 RUN blah
